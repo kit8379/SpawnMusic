@@ -1,0 +1,14 @@
+name: SpawnMusic
+version: '1.0'
+main: org.me.spawnmusic.SpawnMusic
+api-version: '1.21'
+commands:
+  spawnmusic:
+    description: Reloads SpawnMusic plugin
+    usage: /spawnmusic reload
+    permission: spawnmusic.reload
+
+permissions:
+  spawnmusic.reload:
+    description: Allows reloading the SpawnMusic plugin
+    default: op
